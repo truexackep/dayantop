@@ -231,7 +231,7 @@ const Login = (props) => {
                                         localStorage.setItem('user_id', response.data.id)
                                         localStorage.setItem('photo', response.data.photo)
                                         toast.success('Успешно')
-                                        cookie.set('access_token', response.data.access_token)
+                                      //  cookie.set('access_token', response.data.access_token)
                                    //     localStorage.setItem('user', JSON.stringify(response.data))
                                         router.push('/')
                                         settings.user = response.data
